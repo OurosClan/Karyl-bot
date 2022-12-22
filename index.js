@@ -153,6 +153,7 @@ client.on("messageCreate", (message) => {
   if (command === "boss1" && message.channel.id == "1025525211182940313") {
     let user = message.member.id;
     message.member.roles.add("1036752816418586624");
+    setTimeout(() => message.delete(), 5000);
     message.channel.send(
       ":white_check_mark: **<@" +
         user +
@@ -163,6 +164,7 @@ client.on("messageCreate", (message) => {
   if (command === "boss2" && message.channel.id == "1025525211182940313") {
     let user = message.member.id;
     message.member.roles.add("1038597335678189599");
+    setTimeout(() => message.delete(), 5000);
     message.channel.send(
       ":white_check_mark: **<@" +
         user +
@@ -173,6 +175,7 @@ client.on("messageCreate", (message) => {
   if (command === "boss3" && message.channel.id == "1025525211182940313") {
     let user = message.member.id;
     message.member.roles.add("1038597841267986432");
+    setTimeout(() => message.delete(), 5000);
     message.channel.send(
       ":white_check_mark: **<@" +
         user +
@@ -183,6 +186,7 @@ client.on("messageCreate", (message) => {
   if (command === "boss4" && message.channel.id == "1025525211182940313") {
     let user = message.member.id;
     message.member.roles.add("1038597998797668392");
+    setTimeout(() => message.delete(), 5000);
     message.channel.send(
       ":white_check_mark: **<@" +
         user +
@@ -193,6 +197,7 @@ client.on("messageCreate", (message) => {
   if (command === "boss5" && message.channel.id == "1025525211182940313") {
     let user = message.member.id;
     message.member.roles.add("1038598004514504726");
+    setTimeout(() => message.delete(), 5000);
     message.channel.send(
       ":white_check_mark: **<@" +
         user +
