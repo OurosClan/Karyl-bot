@@ -57,12 +57,14 @@ client.on("messageCreate", (message) => {
   // Easter Eggs
 
   if (command === "arigato" && message.author.id == "198221520294772736") {
+    setTimeout(() => message.delete(), 5000);
     message.channel.send(
       "https://media.discordapp.net/attachments/983178488456577065/1055151356459106387/ehjr8gwumta51.png?width=545&height=700"
     );
   }
   //Shiori command
   if (command === "ureshi" && message.author.id == "523893361799725076") {
+    setTimeout(() => message.delete(), 5000);
     message.channel.send(
       "https://media.discordapp.net/attachments/1025535026999332925/1055519069756985354/103745560_p0_master1200.webp?width=526&height=701"
     );
@@ -72,6 +74,7 @@ client.on("messageCreate", (message) => {
 
   // Ranks command
   if (command === "ranks") {
+    setTimeout(() => message.delete(), 5000);
     message.channel.send({
       content: null,
       embeds: [
@@ -85,6 +88,7 @@ client.on("messageCreate", (message) => {
   }
   // PvP command
   if (command === "pvp") {
+    setTimeout(() => message.delete(), 5000);
     message.channel.send({
       content: null,
       embeds: [
@@ -97,6 +101,7 @@ client.on("messageCreate", (message) => {
   }
   // Banners command
   if (command === "banners") {
+    setTimeout(() => message.delete(), 5000);
     message.channel.send({
       content: null,
       embeds: [
@@ -109,6 +114,7 @@ client.on("messageCreate", (message) => {
   }
   // UE command
   if (command === "ue") {
+    setTimeout(() => message.delete(), 5000);
     message.channel.send({
       content: null,
       embeds: [
@@ -122,6 +128,7 @@ client.on("messageCreate", (message) => {
   }
   // Lvl command
   if (command === "lvl") {
+    setTimeout(() => message.delete(), 5000);
     message.channel.send({
       content: null,
       embeds: [
@@ -135,6 +142,7 @@ client.on("messageCreate", (message) => {
   }
   // Event command
   if (command === "eventos") {
+    setTimeout(() => message.delete(), 5000);
     message.channel.send({
       content: null,
       embeds: [
