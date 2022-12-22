@@ -35,7 +35,7 @@ const datasave = require("./datasave.json");
 
 client.on("ready", () => {
   console.log("Beep Boop Online");
-  client.user.setActivity(`you suffer from home, baka!`, {
+  client.user.setActivity(`you suffer from Railway, baka!`, {
     type: ActivityType.Watching,
   });
 });
