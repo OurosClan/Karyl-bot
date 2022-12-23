@@ -93,11 +93,19 @@ client.on("messageCreate", (message) => {
       content: null,
       embeds: [
         {
-          description:
-            "[Guia Chocolate](https://docs.google.com/spreadsheets/d/1qeANy8yjm0pXxKPyLPZ1ViquoO7VuflOVVosEpoJTI8/edit)",
-          color: 16711680,
+          title: "Tower of Luna",
+          color: 10813902,
+          fields: [
+            {
+              name: "[Guia Chocolate](https://docs.google.com/spreadsheets/d/1qeANy8yjm0pXxKPyLPZ1ViquoO7VuflOVVosEpoJTI8/edit?usp=sharing)",
+            },
+            {
+              name: "[Guia Detallada](https://docs.google.com/spreadsheets/d/1u3H0L2azdvFCLrCmlNh8SziDyIZlU7Pjk78BuSJaaVk/edit#gid=241958645)",
+            },
+          ],
         },
       ],
+      attachments: [],
     });
   }
   // PvP command
