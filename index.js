@@ -103,12 +103,20 @@ client.on("messageCreate", (message) => {
               inline: true,
             },
             {
+              name: "|    |",
+              value: "|| ||",
+              inline: true,
+            },
+            {
               name: "Guia Detallada",
               value:
                 "[Link](https://docs.google.com/spreadsheets/d/1u3H0L2azdvFCLrCmlNh8SziDyIZlU7Pjk78BuSJaaVk/edit#gid=241958645)",
               inline: true,
             },
           ],
+          image: {
+            url: "https://pbs.twimg.com/media/FkJcLhZVEAAfehf.png",
+          },
         },
       ],
     });
