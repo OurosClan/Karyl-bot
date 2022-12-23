@@ -86,6 +86,20 @@ client.on("messageCreate", (message) => {
       ],
     });
   }
+  // Luna command
+  if (command === "luna") {
+    setTimeout(() => message.delete(), 5000);
+    message.channel.send({
+      content: null,
+      embeds: [
+        {
+          description:
+            "[Guia Chocolate](https://docs.google.com/spreadsheets/d/1qeANy8yjm0pXxKPyLPZ1ViquoO7VuflOVVosEpoJTI8/edit)",
+          color: 16711680,
+        },
+      ],
+    });
+  }
   // PvP command
   if (command === "pvp") {
     setTimeout(() => message.delete(), 5000);
