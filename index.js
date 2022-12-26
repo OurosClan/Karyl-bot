@@ -184,7 +184,7 @@ client.on("messageCreate", (message) => {
       ],
     });
   }
-/**
+  /**
   // Role Commands Adds
 
   // Enter role boss1
@@ -310,8 +310,8 @@ client.on("messageCreate", (message) => {
       )
       .then((message) => setTimeout(() => message.delete(), 5000));
   }
+  */
 });
-*/
 
 // Log in key
 
