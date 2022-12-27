@@ -86,7 +86,7 @@ client.on("messageCreate", (message) => {
           },
         ],
       })
-      .then((message) => setTimeout(() => message.delete(), 10000));
+      .then((message) => setTimeout(() => message.delete(), 25000));
   }
   // Luna command
   if (command === "luna") {
