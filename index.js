@@ -75,16 +75,18 @@ client.on("messageCreate", (message) => {
   // Ranks command
   if (command === "ranks") {
     setTimeout(() => message.delete(), 5000);
-    message.channel.send({
-      content: null,
-      embeds: [
-        {
-          description:
-            "[Ranks](https://docs.google.com/spreadsheets/u/0/d/18VjvDwBrTinuWtqbxUxo0BNOvFpmztFO2p2D03tUxdA/htmlview#gid=1114939808)",
-          color: 16711680,
-        },
-      ],
-    });
+    message.channel
+      .send({
+        content: null,
+        embeds: [
+          {
+            description:
+              "[Ranks](https://docs.google.com/spreadsheets/u/0/d/18VjvDwBrTinuWtqbxUxo0BNOvFpmztFO2p2D03tUxdA/htmlview#gid=1114939808)",
+            color: 16711680,
+          },
+        ],
+      })
+      .then((message) => setTimeout(() => message.delete(), 10000));
   }
   // Luna command
   if (command === "luna") {
